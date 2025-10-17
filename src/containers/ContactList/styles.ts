@@ -10,6 +10,6 @@ export const Title = styled.h2`
   font-size: 24px;
   font-weight: bold;
   color: ${({ theme }) => theme.primaryColor};
-  margin-bottom: 32px;
+  margin: 32px 0;
   text-align: center;
 `
