@@ -4,8 +4,8 @@ Uma aplicação moderna de gerenciamento de contatos desenvolvida com React, Typ
 
 ## 📸 Screenshot
 
-![Screenshot da Aplicação](./public/screenshot.png)
-*Interface do Contact List com lista de contatos e funcionalidades de gerenciamento*
+![Screenshot da Aplicação](https://raw.githubusercontent.com/Phillipml/contactList/main/public/screenshot.png)
+_Interface do Contact List com lista de contatos e funcionalidades de gerenciamento_
 
 ## 🚀 Funcionalidades
 
@@ -39,17 +39,20 @@ Uma aplicação moderna de gerenciamento de contatos desenvolvida com React, Typ
 ## 🚀 Como Executar
 
 1. **Clone o repositório**
+
    ```bash
    git clone <url-do-repositorio>
    cd contactList
    ```
 
 2. **Instale as dependências**
+
    ```bash
    npm install
    ```
 
 3. **Execute o projeto em modo de desenvolvimento**
+
    ```bash
    npm run dev
    ```
@@ -100,22 +103,26 @@ src/
 ## 📞 Funcionalidades do Gerenciador
 
 ### 👥 **Gerenciamento de Contatos**
+
 - Cadastro com validação de dados
 - Edição de informações existentes
 - Exclusão de contatos
 - Prevenção de duplicatas por nome
 
 ### ⭐ **Sistema de Favoritos**
+
 - Marcar contatos como favoritos
 - Visualização destacada de favoritos
 - Toggle rápido de status
 
 ### 🔍 **Filtros e Busca**
+
 - Filtro por favoritos
 - Busca por nome, email ou telefone
 - Interface intuitiva na barra lateral
 
 ### 📱 **Interface Responsiva**
+
 - Design adaptável para mobile e desktop
 - Componentes otimizados para diferentes telas
 - UX intuitiva e moderna
@@ -123,11 +130,13 @@ src/
 ## 🔧 Arquitetura
 
 ### **Estado Global (Redux)**
+
 - **Contacts**: Gerencia lista de contatos
 - **Filter**: Controla filtros e busca
 - **Persistência**: Estado mantido durante navegação
 
 ### **Componentes**
+
 - **ContactList**: Lista principal de contatos
 - **Form**: Formulário de cadastro/edição
 - **AsideBar**: Filtros e controles
