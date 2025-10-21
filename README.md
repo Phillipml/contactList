@@ -2,41 +2,59 @@
 
 Uma aplicação moderna de gerenciamento de contatos desenvolvida com React, TypeScript e Redux Toolkit. Interface intuitiva para adicionar, editar, remover e favoritar contatos com sistema de filtros e busca.
 
-## 📸 Screenshot
+# 📸 Screenshot
 
 ![Screenshot da Aplicação](https://raw.githubusercontent.com/Phillipml/contactList/main/public/screenshot.png)
 _Interface do Contact List com lista de contatos e funcionalidades de gerenciamento_
 
-## 🚀 Funcionalidades
+# 🚀 Funcionalidades
 
-- **Lista de Contatos** - Visualização organizada de todos os contatos
-- **Adicionar Contatos** - Formulário para cadastro de novos contatos
-- **Editar Contatos** - Modificação de informações existentes
-- **Remover Contatos** - Exclusão de contatos da lista
-- **Sistema de Favoritos** - Marcar contatos como favoritos
-- **Filtros e Busca** - Localizar contatos rapidamente
-- **Validação de Dados** - Prevenção de contatos duplicados
-- **Design Responsivo** - Interface adaptável para diferentes dispositivos
-- **Estado Global** - Gerenciamento de estado com Redux Toolkit
-- **Roteamento** - Navegação entre páginas com React Router
+# Lista de Contatos:
+Visualização organizada de todos os contatos
+## Adicionar Contatos:
+Formulário para cadastro de novos contatos
+## Editar Contatos:
+Modificação de informações existentes
+## Remover Contatos:
+Exclusão de contatos da lista
+## Sistema de Favoritos:
+Marcar contatos como favoritos
+## Filtros e Busca:
+Localizar contatos rapidamente
+## Validação de Dados:
+Prevenção de contatos duplicados
+## Design Responsivo:
+Interface adaptável para diferentes dispositivos
+## Estado Global:
+Gerenciamento de estado com Redux Toolkit
+## Roteamento:
+Navegação entre páginas com React Router
 
-## 🛠️ Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
 
-- **React 19.1.0** - Biblioteca para construção da interface
-- **TypeScript 5.8.3** - Superset do JavaScript com tipagem estática
-- **Redux Toolkit 2.8.2** - Gerenciamento de estado global
-- **React Redux 9.2.0** - Integração React com Redux
-- **React Router 7.6.3** - Roteamento e navegação
-- **Styled Components 6.1.18** - CSS-in-JS para estilização
-- **Vite 7.0.0** - Build tool e servidor de desenvolvimento
-- **ESLint + Prettier** - Linting e formatação de código
+## React 19.1.0:
+Biblioteca para construção da interface
+## TypeScript 5.8.3:
+Superset do JavaScript com tipagem estática
+## Redux Toolkit 2.8.2:
+Gerenciamento de estado global
+## React Redux 9.2.0:
+Integração React com Redux
+## React Router 7.6.3:
+Roteamento e navegação
+## Styled Components 6.1.18:
+CSS-in-JS para estilização
+## Vite 7.0.0:
+Build tool e servidor de desenvolvimento
+## ESLint + Prettier:
+Linting e formatação de código
 
-## 📋 Pré-requisitos
+# 📋 Pré-requisitos
 
 - Node.js (versão 16 ou superior)
 - npm ou yarn
 
-## 🚀 Como Executar
+# 🚀 Como Executar
 
 1. **Clone o repositório**
 
@@ -60,14 +78,14 @@ _Interface do Contact List com lista de contatos e funcionalidades de gerenciame
 4. **Acesse a aplicação**
    - Abra seu navegador e acesse `http://localhost:5173`
 
-## 📦 Scripts Disponíveis
+# 📦 Scripts Disponíveis
 
 - `npm run dev` - Inicia o servidor de desenvolvimento
 - `npm run build` - Gera build de produção
 - `npm run preview` - Visualiza o build de produção
 - `npm run lint` - Executa o linter ESLint com correção automática
 
-## 🏗️ Estrutura do Projeto
+# 🏗️ Estrutura do Projeto
 
 ```
 src/
@@ -91,73 +109,95 @@ src/
     └── index.ts           # Estilos globais
 ```
 
-## 🎯 Como Usar
+# 🎯 Como Usar
 
-1. **Visualize Contatos**: A página principal exibe todos os contatos cadastrados
-2. **Adicione Contatos**: Clique no botão "+" para cadastrar novos contatos
-3. **Edite Contatos**: Clique em um contato para modificar suas informações
-4. **Marque Favoritos**: Use o sistema de favoritos para destacar contatos importantes
-5. **Filtre Contatos**: Use a barra lateral para filtrar e buscar contatos
-6. **Remova Contatos**: Exclua contatos que não são mais necessários
+## Visualize Contatos:
+A página principal exibe todos os contatos cadastrados
+## Adicione Contatos:
+Clique no botão "+" para cadastrar novos contatos
+## Edite Contatos:
+Clique em um contato para modificar suas informações
+## Marque Favoritos:
+Use o sistema de favoritos para destacar contatos importantes
+## Filtre Contatos:
+Use a barra lateral para filtrar e buscar contatos
+## Remova Contatos:
+Exclua contatos que não são mais necessários
 
-## 📞 Funcionalidades do Gerenciador
+# 📞 Funcionalidades do Gerenciador
 
-### 👥 **Gerenciamento de Contatos**
+# 👥 Gerenciamento de Contatos
 
 - Cadastro com validação de dados
 - Edição de informações existentes
 - Exclusão de contatos
 - Prevenção de duplicatas por nome
 
-### ⭐ **Sistema de Favoritos**
+# ⭐ Sistema de Favoritos
 
 - Marcar contatos como favoritos
 - Visualização destacada de favoritos
 - Toggle rápido de status
 
-### 🔍 **Filtros e Busca**
+# 🔍 Filtros e Busca
 
 - Filtro por favoritos
 - Busca por nome, email ou telefone
 - Interface intuitiva na barra lateral
 
-### 📱 **Interface Responsiva**
+# 📱 Interface Responsiva
 
 - Design adaptável para mobile e desktop
 - Componentes otimizados para diferentes telas
 - UX intuitiva e moderna
 
-## 🔧 Arquitetura
+# 🔧 Arquitetura
 
-### **Estado Global (Redux)**
+# Estado Global (Redux)
 
-- **Contacts**: Gerencia lista de contatos
-- **Filter**: Controla filtros e busca
-- **Persistência**: Estado mantido durante navegação
+# Contacts:
+ Gerencia lista de contatos
+# Filter:
+ Controla filtros e busca
+# Persistência:
+ Estado mantido durante navegação
 
-### **Componentes**
+# Componentes:
 
-- **ContactList**: Lista principal de contatos
-- **Form**: Formulário de cadastro/edição
-- **AsideBar**: Filtros e controles
-- **Contact**: Card individual de contato
+## ContactList:
+ Lista principal de contatos
+## Form:
+ Formulário de cadastro/edição
+## AsideBar:
+ Filtros e controles
+## Contact:
+ Card individual de contato
 
-## 🎨 Características do Design
+# 🎨 Características do Design
 
-- **Styled Components**: CSS-in-JS para estilização modular
-- **Design System**: Componentes reutilizáveis
-- **Responsividade**: Adaptação automática para diferentes dispositivos
-- **Tema Consistente**: Paleta de cores e tipografia unificadas
-- **UX Otimizada**: Interface intuitiva e fácil de usar
+## Styled Components:
+CSS-in-JS para estilização modular
+## Design System:
+Componentes reutilizáveis
+## Responsividade:
+Adaptação automática para diferentes dispositivos
+## Tema Consistente:
+Paleta de cores e tipografia unificadas
+## UX Otimizada:
+Interface intuitiva e fácil de usar
 
-## 📝 Licença
+# 📝 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👨‍💻 Desenvolvido por
+**Desenvolvido por:**
+Phillip Menezes
 
-Phillip Menezes - contato.phillip.menezes@gmail.com
-
----
+**Email:**
+contato.phillip.menezes@gmail.com  
+**LinkedIn:**
+[Phillip Menezes](https://www.linkedin.com/in/phillip-menezes-063a39227/)  
+**GitHub:**
+[Phillipml](https://github.com/Phillipml/)
 
 **Nota**: Este é um projeto de demonstração de gerenciamento de contatos desenvolvido com as melhores práticas de React e TypeScript.
